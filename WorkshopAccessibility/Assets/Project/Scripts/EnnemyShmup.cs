@@ -1,11 +1,11 @@
 using System;
 using UnityEngine;
 
-public class EnnemySchump : MonoBehaviour
+public class EnnemyShmup : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.TryGetComponent<PlayerSchump>(out PlayerSchump player))
+        if (other.TryGetComponent<PlayerShmup>(out PlayerShmup player))
         {
             player.takeDamage();
         }

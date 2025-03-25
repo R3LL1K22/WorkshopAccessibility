@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerSchump : MonoBehaviour
+public class PlayerShmup : MonoBehaviour
 {
     [SerializeField] private InputAction playerMovement;
     [SerializeField] private float moveSpeed;
