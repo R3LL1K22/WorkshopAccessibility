@@ -31,6 +31,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Dance",
+                    "type": "Value",
+                    "id": "206d3735-f0aa-49d2-8de6-3afc172998c7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -134,61 +143,6 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "Keyboard Arrows",
-                    "id": "1e49165f-33f5-4541-b4ae-2c85292098d5",
-                    "path": "2DVector",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "up",
-                    "id": "23cc929b-36b3-44e1-a954-e30f554f854f",
-                    "path": "<Keyboard>/upArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keypad",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "down",
-                    "id": "6b7bba06-2a90-4d14-b6ec-e4582b6f1d86",
-                    "path": "<Keyboard>/downArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keypad",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "left",
-                    "id": "718e7324-b7c9-4a27-b225-f86533208940",
-                    "path": "<Keyboard>/leftArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keypad",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "right",
-                    "id": "e79dd593-0ae6-42fb-b0ce-eda4eb41ed43",
-                    "path": "<Keyboard>/rightArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keypad",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
                     "name": "Gamepad Joystick",
                     "id": "5f4cf6d7-521c-4fb2-924b-e8b59c66fbab",
                     "path": "2DVector",
@@ -244,57 +198,112 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "Gamepad DPAD",
-                    "id": "6658da22-a70e-48fa-ab44-cab195be900d",
+                    "name": "Keyboard Arrows",
+                    "id": "d00603f8-061f-48be-aac7-c168f12ad70c",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "Dance",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "up",
-                    "id": "d7cf0ba8-8cbc-40d1-a68a-69596c0ede2d",
-                    "path": "<Gamepad>/dpad/up",
+                    "id": "a7db0564-a45f-4675-b1c2-dfeeb33a47c6",
+                    "path": "<Keyboard>/upArrow",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Gamepad",
-                    "action": "Move",
+                    "groups": ";Keypad",
+                    "action": "Dance",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "down",
-                    "id": "09050832-c7c7-421e-9864-820a587806d4",
-                    "path": "<Gamepad>/dpad/down",
+                    "id": "abac5425-89eb-4da1-a2cf-1ba570c13c07",
+                    "path": "<Keyboard>/downArrow",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Gamepad",
-                    "action": "Move",
+                    "groups": ";Keypad",
+                    "action": "Dance",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "left",
-                    "id": "4752971a-54a5-4ccb-969f-1532f1f1ca58",
-                    "path": "<Gamepad>/dpad/left",
+                    "id": "fc1aa1f1-b201-4793-bd30-03ab59238723",
+                    "path": "<Keyboard>/leftArrow",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Gamepad",
-                    "action": "Move",
+                    "groups": ";Keypad",
+                    "action": "Dance",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "right",
-                    "id": "128f2843-21c3-45cb-acba-5c4aae9c80af",
-                    "path": "<Gamepad>/dpad/right",
+                    "id": "66f93160-0a27-4cb3-98c9-0c8bf00e4de2",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keypad",
+                    "action": "Dance",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Direction",
+                    "id": "a976d4b8-7a01-47fa-a47a-56bbab32aa1b",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dance",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "816cd5f9-bd4d-42e1-8527-eb690bb6dfad",
+                    "path": "<Gamepad>/buttonNorth",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad",
-                    "action": "Move",
+                    "action": "Dance",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "04941f4b-88d7-4710-baba-c51dca998c4c",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "Dance",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "24e609b5-ad85-4ca9-bf18-4104ef83e020",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "Dance",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "04dba13d-d036-4f14-876e-dfbd3c396fc3",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "Dance",
                     "isComposite": false,
                     "isPartOfComposite": true
                 }

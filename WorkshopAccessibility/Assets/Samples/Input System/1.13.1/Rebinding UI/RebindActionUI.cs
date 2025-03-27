@@ -391,7 +391,7 @@ namespace UnityEngine.InputSystem.Samples.RebindUI
             InputBinding newBinding = action.bindings[bindingIndex];
             int currentIndex = -1;
 
-            foreach (InputBinding binding in action.actionMap.bindings)
+            /*foreach (InputBinding binding in action.actionMap.bindings)
             {
                 if (binding.action == newBinding.action)
                 {
@@ -417,7 +417,7 @@ namespace UnityEngine.InputSystem.Samples.RebindUI
                     return true;
                 }               
 
-            }
+            }*/
 
             if (allCompositeParts)
             {
